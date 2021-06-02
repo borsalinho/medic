@@ -7,6 +7,22 @@
         {
             elems:['contacts']
         },
-        'contacts'
+        'contacts',
+        {
+            elems:['vkladka']
+        },
+        'vkladka',
+        {
+            elems:['department']
+        },
+        'department',
+        {
+            elems:['news']
+        },
+        'news',
+        {
+            elems:['documents']
+        },
+        'documents',
     ]
 })

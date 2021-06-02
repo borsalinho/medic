@@ -11,7 +11,23 @@ block('main')({
                         mix:{elem:'tab'}
                     },
                     {
+                        elem:'vkladka',
+                        mix:{elem:'tab'}
+                    },
+                    {
                         elem:'contacts',
+                        mix:{elem:'tab'}
+                    },
+                    {
+                        elem:'news',
+                        mix:{elem:'tab'}
+                    },
+                    {
+                        elem:'department',
+                        mix:{elem:'tab'}
+                    },
+                    {
+                        elem:'documents',
                         mix:{elem:'tab'}
                     },
                 ]

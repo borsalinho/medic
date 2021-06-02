@@ -1,11 +1,11 @@
-block('main').elem('contacts')({
+block('main').elem('vkladka')({
     content: (
         [
             {
                 tag:'input',
                 attrs:{
                     type:'radio',
-                    id:'tab3',
+                    id:'tab2',
                     name:'rab-group',
                 },
              },
@@ -13,15 +13,15 @@ block('main').elem('contacts')({
                  elem:'tab-title',
                  tag:'label',
                  attrs:{
-                     for:'tab3',
+                     for:'tab2',
                  },
-                 content:'Контакты'
+                 content:'Вкладка'
              },
              {  
                  elem:'tab-content',
                  tag:'section',
                  content:{
-                     block:'contacts'
+                     block:'vkladka'
                  }
              }
         ]
