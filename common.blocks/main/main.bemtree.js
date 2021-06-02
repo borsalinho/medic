@@ -1,5 +1,21 @@
 block('main')({
-    content: ({
-        content:'asdasdad'
-    })
+    content: (
+        {
+            cls:'container',
+            content:{
+                elem:'tabs',
+                tag:'nav',
+                content:[
+                    {
+                        elem:'services',
+                        mix:{elem:'tab'}
+                    },
+                    {
+                        elem:'contacts',
+                        mix:{elem:'tab'}
+                    },
+                ]
+            }
+        }
+    )
 });

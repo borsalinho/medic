@@ -1,0 +1,12 @@
+({
+    shouldDeps:[
+        {
+            elems:['services']
+        },
+        'services',
+        {
+            elems:['contacts']
+        },
+        'contacts'
+    ]
+})

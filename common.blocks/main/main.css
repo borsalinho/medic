@@ -1,0 +1,39 @@
+.main{
+    margin-top: -40px;
+}
+.main__tabs {
+    position: relative;
+}
+.main__tab, .main__tab-title {
+    display: inline-block;
+}   
+.main__tab input[type="radio"] { 
+    display: none; 
+}
+.main__tab-title {
+    height: 40px;
+    margin: 0;
+    padding: 12px 18px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: none; 
+    border-left: 1px solid white;
+}
+.main__tab:last-child .main__tab-title{
+    border-right: 1px solid white;
+}
+.main__tab-content {
+    position: absolute; 
+    left: 0;
+    width:100%;
+    display: none;
+}
+.main__tab :checked + .main__tab-title {
+    position: relative; 
+    background: #4292BC;
+    z-index: 1;
+}
+.main__tab :checked ~ .main__tab-content {
+    display: block;
+}

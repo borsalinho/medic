@@ -1,0 +1,31 @@
+block('main').elem('services')({
+    content: (
+        [
+            {
+                tag:'input',
+                attrs:{
+                    type:'radio',
+                    id:'tab1',
+                    name:'rab-group',
+                    checked:'checked'
+                },
+             },
+             {   
+                 elem:'tab-title',
+                 tag:'label',
+                 attrs:{
+                     for:'tab1',
+                 },
+                 content:'Услуги'
+             },
+             {  
+                 elem:'tab-content',
+                 tag:'section',
+                 content:{
+                     block:'services'
+                 }
+             }
+        ]
+        
+    )
+});

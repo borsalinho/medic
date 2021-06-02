@@ -1,0 +1,62 @@
+.header{
+    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 33.85%, rgba(255, 255, 255, 0) 100%), #6EAAC9;
+    padding: 50px 0 40px 0;
+}
+.header__body{
+    background: radial-gradient(117.5% 117.5% at 50% 117.5%, #CFF6FF 0%, rgba(255, 255, 255, 0) 100%), 
+    #EDF3F3;
+} 
+.header__title{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    color: #185F84;
+    margin:0 0 18px 0;
+    padding: 19px 0 0 0;
+}
+.header__discription{
+    max-width: 382px;
+    font-size: 12px;
+    line-height: 150%;
+    color: #000000;
+    margin:0 0 42px 0;
+}
+.header__search{
+    max-width: 470px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 0.4px solid gray;
+    border-radius: 3px;
+    margin:0 20px 13px 0;
+    padding: 10px 18px;
+    font-size: 14px;
+    line-height: 16px;
+    outline: none;
+}
+.header__search::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+.header__button{
+    background: #46B944;
+    border-radius: 7px 0px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 10px 24px;
+    border: none;
+    outline: none;
+}
+.header__container{
+    display: flex;
+}
+.header__left{
+    display: inline-block;
+    width: calc(100% - 370px);
+}
+.header__right{
+    display: inline-block;
+    width: 300px;
+    height: 199px;
+    background:linear-gradient(0deg, rgba(237, 243, 243, 0.25), rgba(237, 243, 243, 0.25)), url('img/header/banner.png') no-repeat;
+    mix-blend-mode: darken;
+}

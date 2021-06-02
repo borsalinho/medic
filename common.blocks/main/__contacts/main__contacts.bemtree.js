@@ -1,0 +1,30 @@
+block('main').elem('contacts')({
+    content: (
+        [
+            {
+                tag:'input',
+                attrs:{
+                    type:'radio',
+                    id:'tab2',
+                    name:'rab-group',
+                },
+             },
+             {   
+                 elem:'tab-title',
+                 tag:'label',
+                 attrs:{
+                     for:'tab2',
+                 },
+                 content:'Контакты'
+             },
+             {  
+                 elem:'tab-content',
+                 tag:'section',
+                 content:{
+                     block:'contacts'
+                 }
+             }
+        ]
+        
+    )
+});
