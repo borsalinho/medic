@@ -22,7 +22,7 @@ block('main').elem('services')({
                  elem:'tab-content',
                  tag:'section',
                  content:{
-                     block:'services'
+                     block:'services',
                  }
              }
         ]

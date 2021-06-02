@@ -37,3 +37,6 @@
 .main__tab :checked ~ .main__tab-content {
     display: block;
 }
+.main__tab-title{
+    cursor: pointer;
+}

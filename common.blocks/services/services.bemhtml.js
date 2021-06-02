@@ -1,0 +1,9 @@
+block('services').elem('method-item')({
+    tag:'li'
+});
+block('services').elem('filter-item')({
+    tag:'li'
+});
+block('services').elem('sale-item')({
+    tag:'li'
+});

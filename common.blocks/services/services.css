@@ -1,0 +1,106 @@
+.services__roads{
+    font-size: 11px;
+    line-height: 13px;
+    margin: 6px 0 7px 0;
+}
+.services__card{
+    background: #FFFFFF;
+    border-radius: 15px 0px;
+    box-shadow: 1px 2px 13px rgba(0, 0, 0, 0.25);
+    height: 100%;
+}
+.services__card-top{
+    height:120px ;
+    border-radius: 15px 0px 0px 0px;
+}
+.services__card-body{
+    padding: 0 20px 12px;
+}
+.services__card-title{
+    font-size: 18px;
+    line-height: 21px;
+    color: #4292BC;
+    height: 63px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.services__card-discription{
+    font-size: 11px;
+    line-height: 13px;
+    height: 52px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    margin: 0 0 20px 0;
+}
+.services__card-price{
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 0 6px 0;
+}
+.services__card-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.services__button-pull{
+    background: #46B944;
+    border-radius: 7px 0px;
+    padding: 8px 18px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+.services__button-more{
+    background: #2D9CDB;
+    border-radius: 7px 0px;
+    padding: 8px 18px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+.services__col{
+    margin-bottom: 35px;
+}
+
+.services__directory{
+    width: 204px;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 13px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    font-size: 12px;
+    line-height: 14px;
+} 
+.services__directory ul{
+    padding: 0px;
+}
+.services__directory ul:not(:last-child){
+    margin: 0 0 25px 0;
+}
+.services__directory li {
+    list-style: none;
+    display: flex;
+    align-items:center;
+}
+.services__directory li:not(:last-child) {
+    margin: 0 0 10px 0;
+}
+.services__directory span{
+    width: calc(100% - 28px);
+}
+.services__directory input{
+    width: 18px;
+    height: 18px;
+    margin: 0 10px 0 0;
+}
+.services__directory h6{
+    margin: 0 0 15px 0
+}

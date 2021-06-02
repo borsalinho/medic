@@ -1,7 +1,314 @@
 block('services')({
     content: (
-        {
-            content:'блок сервисы'
-        }
+        [
+            {
+                elem:'roads',
+                content:'Поликлиника №1'+'›' + 'Платные услуги › Услуги'
+            },
+            {
+                elem:'body',
+                cls:'row',
+                content:[
+                    {
+                        cls:'col',
+                        content:{
+                            elem:'row',
+                            cls:'row',
+                            content:[
+                                {
+                                    background:'img/services/plug.png',
+                                    title:'Исследование организма ДО и ПОСЛЕ вакцинации Исследование организма ДО и ПОСЛЕ вакцинации',
+                                    discription:'Описание ывдлфыджлв фыарфыроф ыловрфырв флыоврдлфоырвфо ырвлд фрывдлорф Описание ывдлфыджлв фыарфыроф ыловрфырв флыоврдлфоырвфо ырвлд фрывдлорф Описание ывдлфыджлв фыарфыроф ыловрфырв флыоврдлфоырвфо ырвлд фрывдлорф',
+                                    price:'2000'
+                                },
+                                {
+                                    background:'img/services/plug.png',
+                                    title:'Исследование организма ДО и ПОСЛЕ вакцинации',
+                                    discription:'Описание ывдлфыджлв фыарфыроф ыловрфырв флыоврдлфоырвфо ырвлд фрывдлорф Описание ывдлфыджлв фыарфыроф ыловрфырв флыоврдлфоырвфо ырвлд фрывдлорф Описание ывдлфыджлв фыарфыроф ыловрфырв флыоврдлфоырвфо ырвлд фрывдлорф',
+                                    price:'2000'
+                                },
+                                {
+                                    background:'img/services/plug.png',
+                                    title:'Исследование организма ДО и ПОСЛЕ вакцинации Исследование организма ДО и ПОСЛЕ вакцинации',
+                                    discription:'Описание ывдлфыджлв',
+                                    price:'2000'
+                                },
+                                {
+                                    background:'img/services/plug.png',
+                                    title:'Исследование организма ДО и ',
+                                    discription:'Описание ывдлфыджлв',
+                                    price:'2000'
+                                },
+                                {
+                                    background:'img/services/plug.png',
+                                    title:'Исследование организма ДО и ПОСЛЕ вакцинации Исследование организма ДО и ПОСЛЕ вакцинации',
+                                    discription:'Описание ывдлфыджлв фыарфыроф ыловрфырв флыоврдлфоырвфо ырвлд фрывдлорф Описание ывдлфыджлв фыарфыроф ыловрфырв флыоврдлфоырвфо ырвлд фрывдлорф Описание ывдлфыджлв фыарфыроф ыловрфырв флыоврдлфоырвфо ырвлд фрывдлорф',
+                                    price:'2000'
+                                },
+                                {
+                                    background:'img/services/plug.png',
+                                    title:'Исследование организма ДО и ПОСЛЕ вакцинации',
+                                    discription:'Описание ывдлфыджлв фыарфыроф ыловрфырв флыоврдлфоырвфо ырвлд фрывдлорф Описание ывдлфыджлв фыарфыроф ыловрфырв флыоврдлфоырвфо ырвлд фрывдлорф Описание ывдлфыджлв фыарфыроф ыловрфырв флыоврдлфоырвфо ырвлд фрывдлорф',
+                                    price:'2000'
+                                },
+                                {
+                                    background:'img/services/plug.png',
+                                    title:'Исследование организма ДО и ПОСЛЕ вакцинации Исследование организма ДО и ПОСЛЕ вакцинации',
+                                    discription:'Описание ывдлфыджлв',
+                                    price:'2000'
+                                },
+                                {
+                                    background:'img/services/plug.png',
+                                    title:'Исследование организма ДО и ',
+                                    discription:'Описание ывдлфыджлв',
+                                    price:'2000'
+                                }
+                            ]
+                        }
+                    }
+                    ,
+                    {
+                        cls:'col-auto',
+                        content:{
+                            elem:'directory',
+                            content:[
+                                {
+                                    elem:'method-list',
+                                    tag:'ul',
+                                    content:[
+                                        {
+                                            elem:'method-title',
+                                            tag:'h6',
+                                            content:'Упорядочить:'
+                                        },
+                                        {
+                                            elem:'method-item',
+                                            content:'По новизне'
+                                        },
+                                        {
+                                            elem:'method-item',
+                                            content:'По популярности'
+                                        },
+                                        {
+                                            elem:'method-item',
+                                            content:'Сначала дешевые'
+                                        },
+                                        {
+                                            elem:'method-item',
+                                            content:'Сначала дорогие'
+                                        },
+                                    ]
+                                },
+                                {
+                                    elem:'filter-list',
+                                    tag:'ul',
+                                    content:[
+                                        {
+                                            elem:'filter-title',
+                                            tag:'h6',
+                                            content:'Фильтр:'
+                                        },
+                                        {
+                                            elem:'filter-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'checkbox'
+                                                    }
+                                                },
+                                                {
+                                                    tag:'span',
+                                                    content:'Услуги врачей'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem:'filter-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'checkbox'
+                                                    }
+                                                },
+                                                {
+                                                    tag:'span',
+                                                    content:'Диагностика'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem:'filter-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'checkbox'
+                                                    }
+                                                },
+                                                {
+                                                    tag:'span',
+                                                    content:'Анализы'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem:'filter-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'checkbox'
+                                                    }
+                                                },
+                                                {
+                                                    tag:'span',
+                                                    content:'Вакцинация'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem:'filter-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'checkbox'
+                                                    }
+                                                },
+                                                {
+                                                    tag:'span',
+                                                    content:'Лечебные мероприятия'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem:'filter-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'checkbox'
+                                                    }
+                                                },
+                                                {
+                                                    tag:'span',
+                                                    content:'Услуги стационаров'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem:'filter-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'checkbox'
+                                                    }
+                                                },
+                                                {
+                                                    tag:'span',
+                                                    content:'Операции'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem:'filter-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'checkbox'
+                                                    }
+                                                },
+                                                {
+                                                    tag:'span',
+                                                    content:'Другое'
+                                                }
+                                            ]
+                                        },
+                                    ]
+                                },
+                                {
+                                    elem:'sale-list',
+                                    tag:'ul',
+                                    content:[
+                                        {
+                                            elem:'sale-title',
+                                            tag:'h6',
+                                            content:'Тип скидки:'
+                                        },
+                                        {
+                                            elem:'sale-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'checkbox'
+                                                    }
+                                                },
+                                                {
+                                                    tag:'span',
+                                                    content:'Скидки'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem:'sale-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'checkbox'
+                                                    }
+                                                },
+                                                {
+                                                    tag:'span',
+                                                    content:'Промокод'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem:'sale-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'checkbox'
+                                                    }
+                                                },
+                                                {
+                                                    tag:'span',
+                                                    content:'Бесплатно'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem:'sale-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'checkbox'
+                                                    }
+                                                },
+                                                {
+                                                    tag:'span',
+                                                    content:'Акция'
+                                                }
+                                            ]
+                                        },
+                                    ]
+                                }
+                            ]
+                            
+                        }
+                    }
+                ]
+                
+            }
+        ]
+        
     )
 });
