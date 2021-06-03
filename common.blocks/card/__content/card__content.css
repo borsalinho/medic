@@ -11,6 +11,7 @@ display: inline-block;
      display: none; 
     }
 .card__tab-title {
+    cursor: pointer;
     background:none;
     padding: 12px 18px;
     margin: 0;
@@ -32,4 +33,31 @@ display: inline-block;
 }
 .card__tab :checked ~ .card__tab-content {
     display: block;
+}
+.card__title{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 15px;
+}
+.img-body{
+    height: 300px;
+    margin: 0 0 15px 0;
+}
+.card__img{
+    margin: 0 auto;
+    height: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+@media screen and (min-width:992px){
+    .card__img{
+        height: 500px;
+    }
+    .img-body{
+        height: 500px;
+    }
+}
+.card__directory{
+    width: 240px;
 }

@@ -3,13 +3,17 @@ block('card').elem('content')({
         [
             {
                 elem:'title',
+                tag:"h6",
                 content:'Исследование организма ДО и ПОСЛЕ вакцинации'
             },
             {
-                elem:'img',
-                attrs:{
-                    style:"background:url('img/card/plug.png') center center no-repeat; background-size: cover; filter: drop-shadow(1px 2px 13px rgba(0, 0, 0, 0.25));",
-                }
+                elem:'img-body',
+                content:{
+                    elem:'img',
+                    attrs:{
+                        style:"background:url('img/card/plug.png') center center no-repeat; background-size: cover; filter: drop-shadow(1px 2px 13px rgba(0, 0, 0, 0.25));",
+                    }
+                },
             },
             {
                 elem:'tabs',

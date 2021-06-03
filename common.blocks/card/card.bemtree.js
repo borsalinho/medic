@@ -69,7 +69,56 @@ block('card')({
                                 cls:'col-auto',
                                 content:{
                                     elem:'directory',
-                                    content:'тут будет колонка'
+                                    content:[
+                                        {
+                                            elem:'assign',
+                                            content:[
+                                                {
+                                                    elem:'assign-title',
+                                                    tag:'h6',
+                                                    content:'Назначить услугу:'
+                                                },
+                                                {
+                                                    elem:'assign-body',
+                                                    content:[
+                                                        {
+                                                            elem:'assign-choose-data',
+                                                            tag:'button',
+                                                            content:'Выбрать дату'
+                                                        },
+                                                        {
+                                                            elem:'assign-data',
+                                                            content:'26 мая, 2021'
+                                                        },
+                                                        {
+                                                            elem:'assign-choose-time',
+                                                            content:[
+                                                                {
+                                                                    elem:'assign-time',
+                                                                    content:'9:00'
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            elem:'assign-price',
+                                                            tag:'span',
+                                                            content:['Цена: ', {
+                                                                elem:'assign-price',
+                                                                elemMods:{color:'green'},
+                                                                tag:'span',
+                                                                content:'2000 руб'}]
+                                                        },
+                                                        {
+                                                            elem:'assign-take',
+                                                            tag:'button',
+                                                            content:'В корзину'
+                                                        },
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                    
                                 }
                             }
                         ]
