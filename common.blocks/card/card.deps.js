@@ -1,0 +1,9 @@
+({
+    shouldDeps:[
+        
+        'main',
+        {
+            elems:['content']
+        },
+    ]
+})

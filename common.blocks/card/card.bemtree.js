@@ -1,7 +1,8 @@
-block('main')({
+block('card')({
     content: (
         [
-            {
+            {   
+                block:'main',
                 elem:'menu',
                 cls:'container',
                 content:{
@@ -10,7 +11,6 @@ block('main')({
                     content:[
                         {   
                             elem:'nav-item',
-                            elemMods:{active: 'true'},
                             tag:'a',
                             content:'Услуги',
                             attrs:{
@@ -20,7 +20,7 @@ block('main')({
                         {   
                             elem:'nav-item',
                             tag:'a',
-                            content:'Вкладка'
+                            content:'Вкладка',
                         },
                         {   
                             elem:'nav-item',
@@ -47,9 +47,34 @@ block('main')({
             },
             {
                 cls:'container',
-                content:{
-                    block:'services'
-                }
+                content:
+                [
+                    {
+                        block:'services',
+                        elem:'roads',
+                        content:'Поликлиника №1›Платные услуги › Услуги'
+                    },
+                    {
+                        elem:'body',
+                        cls:'row',
+                        content:[
+                            {
+                                cls:'col',
+                                content:{
+                                    elem:'content'
+                                }
+                            }
+                            ,
+                            {
+                                cls:'col-auto',
+                                content:{
+                                    elem:'directory',
+                                    content:'тут будет колонка'
+                                }
+                            }
+                        ]
+                    }
+                ]
             }
         ]
         

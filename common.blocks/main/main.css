@@ -1,0 +1,26 @@
+.main__menu{
+    position: relative;
+}
+.main__nav{
+    top:-40px;
+    display: inline-block;
+    position: absolute;
+    height: 40px;
+}
+.main__nav-item{
+    border-left: 1px solid #FFFFFF;
+    display: inline-block;
+    background: none;
+    border-radius: 0px;
+    padding: 12px 18px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF !important;
+    cursor: pointer;
+}
+.main__nav-item:last-child{
+    border-right: 1px solid #FFFFFF;
+}
+.main__nav-item_active_true{
+    background: #4292BC;
+}

@@ -74,7 +74,19 @@ app.get('/', function(req, res) {
     })
 });
 
-
+app.get('/card', function(req, res) {
+    render(req, res, {
+        view: 'card',
+        title: 'Открытая карточка',
+        meta: {
+            description: 'Открытая карточка',
+            og: {
+                url: 'адрес сайта',
+                siteName: 'Название сайта'
+            }
+        }
+    })
+});
 
 
 

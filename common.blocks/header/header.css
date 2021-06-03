@@ -74,28 +74,3 @@
     }
 }
 
-.header__menu{
-    position: relative;
-}
-.header__nav{
-    display: inline-block;
-    position: absolute;
-    height: 40px;
-}
-.header__nav-item{
-    border-left: 1px solid #FFFFFF;
-    display: inline-block;
-    background: none;
-    border-radius: 0px;
-    padding: 12px 18px;
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF !important;
-    cursor: pointer;
-}
-.header__nav-item:last-child{
-    border-right: 1px solid #FFFFFF;
-}
-.header__nav-item_active_true{
-    background: #4292BC;
-}
