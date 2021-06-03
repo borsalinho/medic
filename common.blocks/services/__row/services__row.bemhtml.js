@@ -4,7 +4,7 @@ block("services").elem("row")(
         return [
             {
                 elem:'col',
-                cls:'col-4',
+                cls:'col-xl-4 col-lg-6',
                 content:{
                     elem:'card',
                     content:[

@@ -73,30 +73,98 @@ block('services')({
                             elem:'directory',
                             content:[
                                 {
-                                    elem:'method-list',
-                                    tag:'ul',
+                                    elem:'method-selection',
                                     content:[
                                         {
-                                            elem:'method-title',
+                                            elem:'meth-sel-title',
                                             tag:'h6',
                                             content:'Упорядочить:'
                                         },
                                         {
-                                            elem:'method-item',
-                                            content:'По новизне'
+                                            elem:'meth-sel-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'radio',
+                                                        id:'msi1',
+                                                        name:'msi-group',
+                                                        checked:'checked'
+                                                    }
+                                                },
+                                                {   
+                                                    elem:'m-s-i-text',
+                                                    tag:'label',
+                                                    attrs:{
+                                                        for:'msi1',
+                                                    },
+                                                    content:'По новизне'
+                                                }
+                                            ]
                                         },
                                         {
-                                            elem:'method-item',
-                                            content:'По популярности'
+                                            elem:'meth-sel-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'radio',
+                                                        id:'msi2',
+                                                        name:'msi-group',
+                                                    }
+                                                },
+                                                {   
+                                                    elem:'m-s-i-text',
+                                                    tag:'label',
+                                                    attrs:{
+                                                        for:'msi2',
+                                                    },
+                                                    content:'По популярности'
+                                                }
+                                            ]
                                         },
                                         {
-                                            elem:'method-item',
-                                            content:'Сначала дешевые'
+                                            elem:'meth-sel-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'radio',
+                                                        id:'msi3',
+                                                        name:'msi-group',
+                                                    }
+                                                },
+                                                {   
+                                                    elem:'m-s-i-text',
+                                                    tag:'label',
+                                                    attrs:{
+                                                        for:'msi3',
+                                                    },
+                                                    content:'Сначала дешевые'
+                                                }
+                                            ]
                                         },
                                         {
-                                            elem:'method-item',
-                                            content:'Сначала дорогие'
-                                        },
+                                            elem:'meth-sel-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'radio',
+                                                        id:'msi4',
+                                                        name:'msi-group',
+                                                    }
+                                                },
+                                                {   
+                                                    elem:'m-s-i-text',
+                                                    tag:'label',
+                                                    attrs:{
+                                                        for:'msi4',
+                                                    },
+                                                    content:'Сначала дорогие'
+                                                }
+                                            ]
+                                        }
                                     ]
                                 },
                                 {

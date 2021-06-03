@@ -104,3 +104,17 @@
 .services__directory h6{
     margin: 0 0 15px 0
 }
+.services__m-s-i-text{
+    cursor: pointer;
+    margin: 0 0 10px 0
+}
+.services__meth-sel-item input[type="radio"] {
+    display: none; 
+}
+.services__meth-sel-item :checked + .services__m-s-i-text {
+    color: #4292BC;
+    text-decoration: underline;
+}
+.services__method-selection{
+    margin: 0 0 15px 0
+}
