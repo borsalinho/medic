@@ -88,8 +88,19 @@ app.get('/card', function(req, res) {
     })
 });
 
-
-
+app.get('/basket', function(req, res) {
+    render(req, res, {
+        view: 'basket',
+        title: 'Корзина',
+        meta: {
+            description: 'Корзина',
+            og: {
+                url: 'адрес сайта',
+                siteName: 'Название сайта'
+            }
+        }
+    })
+});
 
 
 

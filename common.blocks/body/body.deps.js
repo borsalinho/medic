@@ -2,7 +2,8 @@
     shouldDeps: [
         // Главная страница
         'main',
-        'card'
+        'card',
+        'basket'
     ]
 })
 

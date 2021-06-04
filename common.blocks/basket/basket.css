@@ -1,0 +1,126 @@
+.basket__top{
+    display: flex;
+    margin: 0 0 15px 0;
+}
+.basket__title{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    margin: 0;
+}
+.basket__clear{
+    margin: 0 0 0 auto;
+    font-size: 12px;
+    line-height: 14px;
+    border:none;
+    background: none;
+}
+.basket__card{
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 0px;
+    margin: 0 0 25px 0;
+}
+.basket__card-left{
+    width: 200px;
+}
+.basket__card-img{
+    border-radius: 15px 0px 0px 0px;
+}
+.basket__card-right{
+    position: relative;
+    width: calc(100% - 200px);
+    padding: 20px 42px 12px 0;
+}
+.basket__delete{
+    display: flex;
+    position: absolute;
+    top:20px;
+    right: 20px;
+    background: none;
+    border: none;
+    padding: 0;
+}
+.basket__card-title{
+    font-size: 18px;
+    line-height: 21px;
+    color: #4292BC;
+    padding-right: 10px;
+    }
+.basket__card-data, .basket__card-time{
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 8px 0;
+}
+.basket__clear-data-2, .basket__card-time-2{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0 0 0 15px;
+}
+.basket__card-bottom{
+    display: flex;
+    align-items: baseline;
+}
+.basket__card-price{
+    margin-left: auto;
+}
+.basket__change-button{
+    background: #2D9CDB;
+    border-radius: 7px 0px;
+    padding: 7px 20px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    height: 30px;
+}
+.basket__card-price{
+    background: #46B944;
+    border-radius: 10px;
+    padding: 7px 14px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.basket__total-col{
+    width: 240px;
+    padding-top: 74px;
+}
+.basket__total{
+    background: #FFFFFF;
+    box-shadow: 1px 2px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 0px;
+    padding: 15px 20px 10px;
+}
+.basket__total-text{
+    padding: 0 15px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+}
+.basket__total-checkout{
+    margin: 14px 0 0 0;
+    background: #46B944;
+    border-radius: 7px 0px;
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+.basket__total-text-2{
+    font-size: 18px;
+    line-height: 21px;
+    color: #27AE60;
+    margin-left: auto;
+}
