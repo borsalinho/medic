@@ -58,3 +58,11 @@
     margin:0 0 0 auto;
     color: #27AE60;
 }
+.card__similar-services{
+    margin-top: 70px;
+}
+.card__sim-ser-title{
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0 0 15px 0;
+}

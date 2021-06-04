@@ -67,59 +67,100 @@ block('card')({
                             ,
                             {
                                 cls:'col-auto',
-                                content:{
-                                    elem:'directory',
-                                    content:[
-                                        {
-                                            elem:'assign',
-                                            content:[
-                                                {
-                                                    elem:'assign-title',
-                                                    tag:'h6',
-                                                    content:'Назначить услугу:'
-                                                },
-                                                {
-                                                    elem:'assign-body',
-                                                    content:[
-                                                        {
-                                                            elem:'assign-choose-data',
-                                                            tag:'button',
-                                                            content:'Выбрать дату'
-                                                        },
-                                                        {
-                                                            elem:'assign-data',
-                                                            content:'26 мая, 2021'
-                                                        },
-                                                        {
-                                                            elem:'assign-choose-time',
-                                                            content:[
-                                                                {
-                                                                    elem:'assign-time',
-                                                                    content:'9:00'
-                                                                }
-                                                            ]
-                                                        },
-                                                        {
-                                                            elem:'assign-price',
-                                                            tag:'span',
-                                                            content:['Цена: ', {
+                                content:[
+                                    {
+                                        elem:'directory',
+                                        content:[
+                                            {
+                                                elem:'assign',
+                                                content:[
+                                                    {
+                                                        elem:'assign-title',
+                                                        tag:'h6',
+                                                        content:'Назначить услугу:'
+                                                    },
+                                                    {
+                                                        elem:'assign-body',
+                                                        content:[
+                                                            {
+                                                                elem:'assign-choose-data',
+                                                                tag:'button',
+                                                                content:'Выбрать дату'
+                                                            },
+                                                            {
+                                                                elem:'assign-data',
+                                                                content:'26 мая, 2021'
+                                                            },
+                                                            {
+                                                                elem:'assign-choose-time',
+                                                                content:[
+                                                                    {
+                                                                        elem:'assign-time',
+                                                                        content:'9:00'
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
                                                                 elem:'assign-price',
-                                                                elemMods:{color:'green'},
                                                                 tag:'span',
-                                                                content:'2000 руб'}]
-                                                        },
-                                                        {
-                                                            elem:'assign-take',
-                                                            tag:'button',
-                                                            content:'В корзину'
-                                                        },
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
+                                                                content:['Цена: ', {
+                                                                    elem:'assign-price',
+                                                                    elemMods:{color:'green'},
+                                                                    tag:'span',
+                                                                    content:'2000 руб'}]
+                                                            },
+                                                            {
+                                                                elem:'assign-take',
+                                                                tag:'button',
+                                                                content:'В корзину'
+                                                            },
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                elem:'similar-services',
+                                                content:[
+                                                    {
+                                                        elem:'sim-ser-title',
+                                                        tag:'h6',
+                                                        content:'Похожие услуги:'
+                                                    },
+                                                    {   
+                                                        block:'services',
+                                                        elem:'row',
+                                                        cls:'row',
+                                                        content:[
+                                                            {
+                                                                background:'img/services/plug.png',
+                                                                title:'Исследование организма ДО и ПОСЛЕ вакцинации Исследование организма ДО и ПОСЛЕ вакцинации',
+                                                                discription:'Описание ывдлфыджлв фыарфыроф ыловрфырв флыоврдлфоырвфо ырвлд фрывдлорф Описание ывдлфыджлв фыарфыроф ыловрфырв флыоврдлфоырвфо ырвлд фрывдлорф Описание ывдлфыджлв фыарфыроф ыловрфырв флыоврдлфоырвфо ырвлд фрывдлорф',
+                                                                price:'2000',
+                                                                pageCard:true
+                                                            },
+                                                            {
+                                                                background:'img/services/plug.png',
+                                                                title:'Исследование организма ДО и ПОСЛЕ вакцинации',
+                                                                discription:'Описание ывдлфыджлв фыарфыроф ыловрфырв флыоврдлфоырвфо ырвлд фрывдлорф Описание ывдлфыджлв фыарфыроф ыловрфырв флыоврдлфоырвфо ырвлд фрывдлорф Описание ывдлфыджлв фыарфыроф ыловрфырв флыоврдлфоырвфо ырвлд фрывдлорф',
+                                                                price:'2000',
+                                                                pageCard:true
+                                                            },
+                                                            {
+                                                                background:'img/services/plug.png',
+                                                                title:'Исследование организма ДО и ПОСЛЕ вакцинации Исследование организма ДО и ПОСЛЕ вакцинации',
+                                                                discription:'Описание ывдлфыджлв',
+                                                                price:'2000',
+                                                                pageCard:true
+                                                            }
+                                                            
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
                                     
-                                }
+                                ]
                             }
                         ]
                     }

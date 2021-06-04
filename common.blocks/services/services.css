@@ -67,6 +67,10 @@
     border: none;
     outline: none;
 }
+.services__button-more:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
 .services__col{
     margin-bottom: 35px;
 }

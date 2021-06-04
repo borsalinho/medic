@@ -1,10 +1,18 @@
 block("services").elem("row")(
     content()(function () {
       return this.ctx.content.map(function (item) {
+          let colClass="";
+
+          if (item.pageServices){
+            colClass ='col-xl-4 col-lg-6';
+          }
+          if (item.pageCard){
+            colClass ='col';
+          }
         return [
             {
                 elem:'col',
-                cls:'col-xl-4 col-lg-6',
+                cls:colClass,
                 content:{
                     elem:'card',
                     content:[
@@ -41,7 +49,10 @@ block("services").elem("row")(
                                         },
                                         {   
                                             elem:'button-more',
-                                            tag:'button',
+                                            tag:'a',
+                                            attrs:{
+                                                href:'/card'
+                                            },
                                             content:'Подробнее'
                                         }
                                     ]
