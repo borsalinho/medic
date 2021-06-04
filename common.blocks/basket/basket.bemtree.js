@@ -144,9 +144,17 @@ block('basket')({
                                                 }]
                                             },
                                             {
-                                                elem:'total-checkout',
-                                                tag:'button',
-                                                content:'Оформить заказ'
+                                                block:'modal-bs4',
+                                                content:[
+                                                    {   
+                                                        buttonBlock:'basket',
+                                                        buttonElem:'total-checkout',
+                                                        buttonName:'Оформить заказ',
+                                                        modalTarget:'#total-checkout',
+                                                        modalId:'total-checkout',
+                                                        modalContent:'reception',
+                                                    }
+                                                ]
                                             }
                                         ]
                                     }

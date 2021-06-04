@@ -1,0 +1,60 @@
+.reception{
+    background: #FFFFFF;
+    border-radius: 8px 0px;
+    padding: 30px;
+}
+.reception__body{
+    max-width: 450px;
+    margin: 0 auto;
+}
+.reception__title{
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+.reception__fio,.reception__number, .reception__e-mail{
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    margin: 0 0 15px 0;
+    padding: 10px 18px;
+    outline: none;
+}
+.reception input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+.reception__familiarization{
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.reception__familiarization input{
+    width: 18px;
+    height: 18px;
+    margin: 0 10px 0 0;
+}
+.reception__price{
+    font-size: 14px;
+    line-height: 16px;
+}
+.reception__price span{
+    margin:0 0 0 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #46B944;
+}
+.reception__button{
+    background: #46B944;
+    border-radius: 7px 0px;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 12px 24px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+}
